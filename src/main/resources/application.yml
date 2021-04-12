@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: company
+
+  datasource:
+    url: jdbc:postgresql://companyDb:5432/postgres
+    username: postgres
+    password: root
+    initialization-mode: always
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+  liquibase:
+    enabled: true
+    change-log: classpath:/database/project-changelogs.xml
+
+logging:
+  level:
+    org:
+      apache:
+        http:
+          wire: ERROR
