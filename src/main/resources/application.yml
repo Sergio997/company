@@ -7,6 +7,7 @@ spring:
 
   datasource:
     url: jdbc:postgresql://companyDb:5432/postgres
+#    url: jdbc:postgresql://127.0.0.1:5432/company
     username: postgres
     password: root
     initialization-mode: always
@@ -22,6 +23,14 @@ spring:
   liquibase:
     enabled: true
     change-log: classpath:/database/project-changelogs.xml
+
+  security:
+    jwt:
+      header: Authorization
+      secret: N4b654TZN
+      expiration: 900000
+      token-time: 1
+      refresh-token-time: 200
 
 logging:
   level:

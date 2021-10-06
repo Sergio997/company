@@ -1,8 +1,8 @@
-package com.company.service;
+package com.company.service.company;
 
-import com.company.dao.dto.request.CompanyRequestDto;
-import com.company.dao.dto.response.CompanyResponseDto;
-import com.company.dao.dto.response.PageResponse;
+import com.company.common.dtos.request.CompanyRequestDto;
+import com.company.common.dtos.response.CompanyResponseDto;
+import com.company.common.dtos.response.PageResponse;
 import org.springframework.data.domain.Pageable;
 
 import java.util.UUID;

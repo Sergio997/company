@@ -1,4 +1,4 @@
-package com.company.dao.dto.request;
+package com.company.common.dtos.request;
 
 
 import lombok.*;

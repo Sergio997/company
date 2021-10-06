@@ -1,9 +1,9 @@
 package com.company.mapper;
 
 import com.company.dao.Company;
-import com.company.dao.dto.request.CompanyRequestDto;
-import com.company.dao.dto.response.CompanyResponseDto;
-import com.company.dao.dto.response.PageResponse;
+import com.company.common.dtos.request.CompanyRequestDto;
+import com.company.common.dtos.response.CompanyResponseDto;
+import com.company.common.dtos.response.PageResponse;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;
 import org.springframework.data.domain.Page;

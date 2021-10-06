@@ -1,9 +1,9 @@
 package com.company.controller;
 
-import com.company.dao.dto.request.CompanyRequestDto;
-import com.company.dao.dto.response.CompanyResponseDto;
-import com.company.dao.dto.response.PageResponse;
-import com.company.service.CompanyService;
+import com.company.common.dtos.request.CompanyRequestDto;
+import com.company.common.dtos.response.CompanyResponseDto;
+import com.company.common.dtos.response.PageResponse;
+import com.company.service.company.CompanyService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;

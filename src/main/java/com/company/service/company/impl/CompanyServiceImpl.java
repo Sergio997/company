@@ -1,12 +1,12 @@
-package com.company.service.impl;
+package com.company.service.company.impl;
 
 import com.company.dao.Company;
-import com.company.dao.dto.request.CompanyRequestDto;
-import com.company.dao.dto.response.CompanyResponseDto;
-import com.company.dao.dto.response.PageResponse;
+import com.company.common.dtos.request.CompanyRequestDto;
+import com.company.common.dtos.response.CompanyResponseDto;
+import com.company.common.dtos.response.PageResponse;
 import com.company.mapper.CompanyMapper;
 import com.company.repository.CompanyRepository;
-import com.company.service.CompanyService;
+import com.company.service.company.CompanyService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
